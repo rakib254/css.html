@@ -1,0 +1,82 @@
+.css {
+    width: 100%;
+    height: 600px;
+    background: rgb(48, 201, 201);
+    position: relative;
+}
+
+.divestyle {
+    position: absolute;
+    width: 100px;
+    background: red;
+    height: 50px;
+    top: 0%;
+    left: 0%;
+}
+
+.divestyle6 {
+    position: absolute;
+    width: 100px;
+    background: rgb(236, 8, 8);
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%
+}
+
+.divestyle5 {
+    position: absolute;
+    width: 100px;
+    background: rgb(219, 128, 17);
+    height: 50px;
+    right: 0px;
+    left: 450px;
+}
+
+.divestyle1 {
+    position: absolute;
+    width: 100px;
+    background: yellow;
+    height: 50px;
+    top: 0%;
+    right: 0%;
+}
+
+.divestyle2 {
+    position: absolute;
+    width: 100px;
+    background: rgb(68, 0, 255);
+    height: 50px;
+    bottom: 0%;
+    right: 0%;
+}
+
+.divestyle3 {
+    position: absolute;
+    width: 100px;
+    background: purple;
+    height: 50px;
+    left: 0%;
+    bottom: 0%;
+}
+
+.divestyle4 {
+    position: absolute;
+    width: 200px;
+    background: bisque;
+    height: 120px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.divestyle7 {
+    position: absolute;
+    width: 10px;
+    background: #7e7871;
+    height: 300px;
+    top: 55%;
+    left: 40%;
+    transform: translate(0%, -30%)
+}
