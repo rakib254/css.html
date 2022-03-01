@@ -1,0 +1,379 @@
+.clear {
+    clear: both;
+}
+
+.full-wrapper {
+    width: 100%;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #fff;
+}
+
+header {
+    height: 80px;
+}
+
+ul,
+li,
+a {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 8px;
+    color: rgb(22, 21, 21);
+}
+
+li,
+a {
+    text-decoration: none;
+}
+
+.full-wrapper .wrapper .nav-bar {
+    float: right;
+}
+
+.full-wrapper .logo .img {
+    float: left;
+    width: 120PX
+}
+
+.full-wrapper .wrapper.nav-bar.logo {
+    line-height: 80px;
+}
+
+.nav-bar a:hover {
+    color: rgb(224, 60, 28);
+    transition: all 2s linear;
+}
+
+.active {
+    color: crimson;
+}
+
+.right-button {
+    background: #fff;
+    padding: 14px 20px;
+    color: crimson;
+    box-shadow: 0 0 5px rgb(46, 40, 40);
+    border-radius: 5%;
+}
+
+.nav-bar .right-button:hover {
+    background: rgb(204, 57, 32);
+    transition: all 1s linear;
+    color: #fff;
+}
+
+
+/*bannar*/
+
+.tex-content {
+    width: 50%;
+    float: left;
+    margin-top: 30px;
+}
+
+.tex-content h4 {
+    padding-top: 35px;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+
+.tex-content h2 {
+    font-size: 40px;
+    line-height: 40px;
+    word-spacing: 3px;
+}
+
+.tex-content p {
+    font-size: 20px;
+    word-spacing: 2px;
+}
+
+.tex-content h2 span {
+    color: crimson;
+}
+
+.banner-img {
+    width: 30%;
+    height: 100%;
+    float: right;
+    margin-top: 110px;
+}
+
+.photo {
+    width: 100%;
+    height: 70%;
+    margin-top: -100px;
+}
+
+.tex-content.span h2 {
+    display: inline-block;
+    padding-left: 10px;
+    background: rgb(233, 88, 112);
+}
+
+.img-box {
+    background-color: aliceblue;
+    box-shadow: 3px 5px 25px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 80px;
+    width: 300px;
+}
+
+.icon-main .find-me {
+    float: left;
+}
+
+.icon-main .best-skill {
+    float: right;
+}
+
+.best-skill h4 {
+    word-spacing: 2px;
+}
+
+.find-me h4 {
+    word-spacing: 2px;
+}
+
+.find-me .rakib {
+    float: left;
+}
+
+.best-skill .rk img {
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+    background: rgb(250, 248, 248);
+    padding: 18px 18px;
+    border-radius: 4px;
+    box-shadow: 2px 4px 5px rgb(102, 101, 96);
+}
+
+.rakib i {
+    font-size: 30px;
+    margin-right: 10px;
+    background: rgb(250, 248, 248);
+    border-radius: 4px;
+    box-shadow: 2px 4px 5px rgb(102, 101, 96);
+    padding: 10px 8px;
+    float: left;
+}
+
+.find-me .rakib i:hover {
+    background-color: crimson;
+    color: #fff;
+    transition: all 1s linear;
+    margin-top: -5px;
+}
+
+.content {
+    width: 100%;
+    height: 600px;
+    border-bottom: 1px solid rgb(61, 61, 57);
+}
+
+
+/* bannaer end */
+
+
+/*FEATURES star  */
+
+.main {
+    padding-top: 80px;
+    height: 1250px;
+    border-bottom: 1px solid rgb(61, 61, 57);
+}
+
+.main h4 {
+    color: rgb(211, 17, 153);
+    font-size: 15px;
+}
+
+.main h3 {
+    color: rgb(56, 51, 56);
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.box-item img {
+    width: 40px;
+    height: 40px;
+}
+
+.box-main .box-item {
+    background: #fff;
+    box-shadow: 5px 5px 10px rgb(158, 147, 147);
+    width: 30%;
+    height: 230px;
+    padding: 40px;
+    text-align: left;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    float: left;
+    margin-right: 30px;
+    /* margin-top: -5px; */
+}
+
+.box-item:hover {
+    background: tomato;
+    /* margin-top: -5px; */
+}
+
+img {
+    padding-top: 8px;
+    padding-bottom: 7px;
+}
+
+.box-item:hover h2,
+.box-item:hover p {
+    color: #fff;
+    transition: all .4s linear;
+}
+
+.are img {
+    display: none;
+}
+
+.box-main .box-item:hover .are img {
+    display: block;
+}
+
+
+/* FEATURES end  */
+
+
+/* VISIT start */
+
+.Portfolio-main {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgb(126, 124, 117);
+}
+
+.portfolio {
+    height: 400px;
+    width: 400px;
+}
+
+.Portfolio-main .Portfolio-header h4,
+h2 {
+    text-align: center;
+    line-height: 30px;
+}
+
+.Portfolio-header h4 {
+    color: rgb(214, 14, 197);
+}
+
+.Portfolio-header h2 {
+    color: rgb(88, 83, 83);
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.box-main.item {
+    background: #fff;
+    box-shadow: 5px 5px 10px rgb(158, 147, 147);
+}
+
+.portfolio .portfolio-box {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.portfolio .portfolio-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.portfolio {
+    background: #fff;
+    box-shadow: 5px 5px 10px rgb(119, 117, 109);
+    width: 35%;
+    height: 370px;
+    padding: 30px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.box-text .sub {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box-text .sub .text1 p {
+    float: left;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.box-text .sub .text1 p {
+    color: rgb(238, 58, 199);
+}
+
+.box-text .sub .text2 {
+    float: right;
+}
+
+.box-text h4 {
+    text-transform: capitalize;
+    color: rgb(44, 43, 43);
+    font-size: 22px;
+}
+
+.portfolio-box:hover img {
+    transform: scale(1.1);
+    transition: all .3s linear;
+    border-radius: 10px;
+}
+
+.box-text:hover h4 {
+    color: rgb(199, 23, 146);
+    transition: all .3s linear;
+    margin-top: -2px;
+}
+
+
+/* VISIT end  */
+
+.year-main {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.year-main .year h1 {
+    color: rgb(209, 28, 185);
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.board h4 {
+    color: rgb(82, 82, 77);
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.year h1,
+.board h4 {
+    text-align: center;
+}
+
+
+/* yearstart */
+
+
+/* yearend */

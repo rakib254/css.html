@@ -1,0 +1,193 @@
+.navbar-nav {
+    padding-left: 200px !important;
+}
+
+.navbar-nav li,
+a {
+    margin-left: 0px 10px;
+}
+
+.row {
+    padding-left: 20px;
+}
+
+
+/* ------------------ banner-main -----------------*/
+
+.htext h1 {
+    position: relative;
+}
+
+.htext h1::after {
+    position: absolute;
+    content: "";
+    width: 400px;
+    height: 2px;
+    top: 50%;
+    left: 20%;
+    background-color: rgb(39, 40, 41);
+}
+
+.tusca {
+    margin-top: 30px;
+}
+
+.banner-main h3 {
+    font-size: 50px;
+}
+
+.banner-main h2 {
+    font-size: 29px;
+}
+
+
+/*-----------banner-main end-----------*/
+
+
+/*--------myselef------- */
+
+.btn {
+    background-color: rgb(97, 39, 163);
+}
+
+.close:hover a {
+    background-color: #fff;
+    color: rgb(71, 68, 68)
+}
+
+
+/*--------myselef  end------- */
+
+
+/*..............card.................*/
+
+.travel-main {
+    background-color: rgba(115, 115, 115, 0.13)
+}
+
+.right-card {
+    padding: 25px 30px;
+    background: #faf8ff;
+    height: 280px;
+    width: 350px;
+    position: relative;
+}
+
+.right-card::after {
+    position: absolute;
+    content: "";
+    background: url('./images/gol.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 150px;
+    top: -5%;
+    left: -5%;
+}
+
+.flex-row .p-3 {
+    color: #854fee;
+    font-family: "Rubik", sans-serif;
+    font-size: 97px;
+    font-weight: 600;
+    line-height: 70px;
+}
+
+.flex-row .p-2 {
+    text-align: left;
+    color: #000;
+    font-family: "Rubik", sans-serif;
+    font-size: 21px;
+    margin-left: 10px;
+}
+
+.flex-column {
+    color: #854fee;
+    font-family: "Rubik", sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 21px;
+}
+
+
+/* .travel-main:hover .card {
+    box-shadow: 4px 4px 9px rgb(184, 125, 125);
+    background-color: #fff;
+} */
+
+
+/*..............card end.................*/
+
+
+/*................ photo card start..............*/
+
+.service-main {
+    background-color: rgba(174, 26, 211, 0.13);
+}
+
+.col-md-3 {
+    padding: 40px 30px;
+    text-align: center;
+    background: #f9f9fd;
+    margin-bottom: 30px;
+    margin-right: 15px;
+}
+
+.card-title h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+
+/*................ photo card end..............*/
+
+
+/*..................QUALITY...................*/
+
+.text-left {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+
+/*..................QUALITY end...................*/
+
+
+/*....................background............................*/
+
+.bakground {
+    background: url('./images/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 140px 0;
+}
+
+.email input {
+    min-width: 380px;
+    max-width: 380px;
+    line-height: 48px;
+    padding: 0 25px;
+    border: 1px solid #fff;
+    background: transparent;
+    font-weight: 400;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.email button {
+    margin-left: 10px;
+    background: #fff;
+    text-transform: uppercase;
+    color: #222;
+    border-radius: 4px;
+    line-height: 48px;
+    font-size: 14px;
+    padding: 0 38px;
+}
+
+
+/*....................background end............................*/
